@@ -12,8 +12,8 @@ set.seed(0001)
 trainingUrl <- "https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv"
 testingUrl <- "http://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv"
 
-training <- read.csv(url(trainUrl), na.strings=c("NA","#DIV/0!",""))
-testing <- read.csv(url(testUrl), na.strings=c("NA","#DIV/0!",""))
+training <- read.csv(url(trainingUrl), na.strings=c("NA","#DIV/0!",""))
+testing <- read.csv(url(testingUrl), na.strings=c("NA","#DIV/0!",""))
 
 training <- read.csv(url(trainingUrl), na.strings=c("NA","#DIV/0!",""))
 testing <- read.csv(url(testingUrl), na.strings=c("NA","#DIV/0!",""))
